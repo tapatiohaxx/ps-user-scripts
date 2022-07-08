@@ -10,4 +10,7 @@ oh-my-posh.exe init pwsh --config $HOME\.config\powershell\festivetech.omp.json 
 
 #You may use these aliases tto accomplish functions that I do on a regular basis. Certain downloadable programs you may have may make using these aliases unnecessary.
 new-alias -name .. -value cd..
-
+#Set environment variables with the following format
+[System.Environment]::SetEnvironmentVariable('APPAADEMY', 'D:\Matts Stuff\appacademy\appacademy-projects-learning\')
+#You may also define the user by using the following
+#[System.EnvironmentVariableTarget]::User
